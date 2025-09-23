@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@layer components{
+    .header-link{
+@apply block py-2 pr-4 pl-3 text-black md:text-white border-b border-gray-400
+    hover:bg-gray-300 md:hover:bg-transparent md:border-0 
+     md:p-0 hover:text-blue-700 md:hover:text-cyan-300 font-semibold;
+}
+}
