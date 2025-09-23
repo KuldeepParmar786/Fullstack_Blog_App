@@ -30,12 +30,12 @@ const Blog = ({ blog }) => {
     {blog.discription}
   </p>
 
-  <a
-    href={`/${blog.id}`}
+  <Link
+    to={`/${blog.id}`}
     className="text-indigo-400 inline-flex items-center hover:text-indigo-300"
   >
     Learn More →
-  </a>
+  </Link>
      
       <div className="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
         <span className="text-gray-500 mr-3 inline-flex items-center leading-none text-sm pr-3 py-1 border-r-2 border-gray-700 border-opacity-50">
