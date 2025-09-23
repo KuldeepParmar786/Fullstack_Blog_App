@@ -68,7 +68,7 @@ const App = () => {
       <Route path='/' element={blogstoshow()} />
       <Route path='/users' element={<User/>}/>
       <Route path='/login' element={<LoginForm/>} />
-      <Route path='/users/:id' element={<IndividualUser />}/>
+      <Route path='/users/id' element={<IndividualUser />}/>
       <Route path='/:id' element={<Bloginfo/>} />
     </Routes>
       </div>
